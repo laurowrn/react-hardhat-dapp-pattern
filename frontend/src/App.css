@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 20%;
+  height: 15%;
+  font-size: 4vmin;
+  background-color: black;
+  color: white;
+  border-radius: 1.5vmin;
+  border-style: solid;
+  border-color: transparent;
+}
+
+button:hover {
+  background-color: blue;
+}
+
+p {
+  width: 40%;
+  height: 15%;
+  text-align: center;
+  font-size: 10vmin;
+}
